@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="carousel.js"></script>
+    <script type="text/javascript"  src="myjs.js"></script>
+</head>
+
+<body>
+    <div class="m_nav">
+        <img src="image/modus_versus.png" />
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li class="show" onmouseover="showyou()"><a href="" style="display: inline-block;
+    background-color:#62a29e;
+    border-radius: 5px;
+    width: 134px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    margin-top: -2px;">PORTFOLIO</a></li>
+	 <ul class="abint" id="abc" onmouseout="hideyou()">
+  
+   <li class="aint"><a href="#">Portfolio 2 columnn page</a></li>
+ <li class="aint"><a href="#">Portfolio 2 columnn page</a></li>
+ <li class="aint"><a href="#">Portfolio 2 columnn page</a></li>
+  
+      </ul>
+<script type="text/javascript">
+var aaa=document.getElementById("abc");
+function showyou(){
+aaa.style.display="block";
+}
+function hideyou(){
+aaa.style.display="none";
+}
+</script>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">FEATURES</a></li>
+            <li><a href="" class="search">CONTACTS</a></li>
+        </ul>
+    </div> <img src="image/head_bg.png" class="head_bg">
+    <div id="container">
+        <div id="list" style="left: -1349px;">
+            <img src="image/3.jpg" />
+            <img src="image/1.jpg" />
+            <img src="image/2.jpg" />
+            <img src="image/3.jpg" />
+            <img src="image/1.jpg" />
+        </div>
+        <div id="buttons">
+            <span index="1" class="on"></span>
+            <span index="2"></span>
+            <span index="3"></span>
+        </div>
+        <a href="#" id="prev" class="arrow">&lt;</a>
+        <a href="#" id="next" class="arrow">&gt;</a>
+    </div>
+    <div class=" content_top">
+        <div class="sub">
+            <h2>Some of our top services</h2>
+            <p>Ut eleifend libero sed neque rhoncus consequat.Maecenas tincidunt,augue et rutrum condimentym, libero lectus mattis orcl,ut commodo.</p>
+            <input type="submit" value="VIEW MORE" class="view">
+        </div>
+        <div class="content_m">
+            <div class="one">
+                <img src="image/bang.png">
+                <h3>SUSPENDISSE</h3>
+                <p>
+                    Quisque id tellus quis risus vehicula vehicula ut turpis.In eros nulla,placerat vitae at,vehicula ut nunc.
+                </p>
+                <span class="read1"><a href="">read more</a></span>
+            </div>
+            <div class="two">
+                <img src="image/yaoshi.png">
+                <h3>MAECENAS</h3>
+                <p>
+                    Ut eleifend libero sed neque rhoncus consequat.Maecenas tincidunt,augue et rutrum condumentum,libero lectus matt is orci,ut commodo.
+                </p>
+                <span class="read2"><a href="">read more</a></span>
+            </div>
+            <div class="three">
+                <img src="image/flag.png">
+                <h3>ALIQUAM</h3>
+                <p>
+                    Vivamus eget ante bibendum arcu vehicula ultricles.Integer venenatus mattis nisl,vitae pulvinar dui tempor non.
+                </p>
+                <span class="read3"><a href="">read more</a></span>
+            </div>
+            <div class="four">
+                <img src="image/habita.png">
+                <h3>HABITASSE</h3>
+                <p>
+                    Astehicula ultricles.Integer venenatis mattis nisl,vitae pulvinar dui tempor non.
+                </p>
+                <span class="read4"><a href="">read more</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="content_mm">
+        <img src="image/mmbg.png" class="mmbg">
+        <h1>WHY MODUS VERSUS</h1>
+        <p>Capacitance cascading integer reflective interface data development high bus cache dithering transponder.</p>
+        <div class="J_Poster poster-main" data-setting='{
+                                                "width":900,
+                                               "height":385,
+                                               "posterWidth":560,
+                                               "posterHeight":385,
+                                               "scale":0.8,
+                                               "autoPlay":true,
+                                               "delay":2000,
+                                               "speed":300
+                                                }'>
+            <div class="poster-btn poster-prev-btn"></div>
+            <ul class="poster-list">
+                <li class="poster-item">
+                    <a href="#"><img src="image/4.jpg" width="100%" height="100%"></a>
+                </li>
+                <li class="poster-item">
+                    <a href="#"><img src="image/5.jpg" width="100%" height="100%"></a>
+                </li>
+                <li class="poster-item">
+                    <a href="#"><img src="image/6.jpg" width="100%" height="100%"></a>
+                </li>
+            </ul>
+            <div class="poster-btn poster-next-btn"></div>
+        </div>
+    </div>
+    <script>
+    $(function() {
+        Carousel.init($(".J_Poster"));
+    });
+    </script>
+    <div class="content_t">
+        <div class="content_tl">
+            <h3>Why Choose Us?</h3>
+            <ul class="list01">
+                <li><a href="">Quisque at massa ipsum</a></li>
+                <li><a href="">Maecenas alirem augue egestas</a></li>
+                <li> <a href="">Cras vitae feliss at lacus eleifend</a></li>
+                <li><a href="">Etiam auctor diam pellentesque</a></li>
+                <li><a href="">Nulla ac massa at dolor</a></li>
+                <li><a href="">Condimentum ekeifend vitae vitae</a></li>
+            </ul>
+        </div>
+        <div class="content_tm">
+            <p>Curabitur quis nisl in leo eursmid venenatis eu diam.Etiam auctor diam pellentesque lectus <a href="">vehicula matis</a>.Nulla ac massa at dolor condimentum eleifend vitae vitae urna.</p>
+            <img class="pho" src="image/rac50.png">
+            <img class="pho" src="image/rac70.png">
+            <img class="pho" src="image/rac80.png">
+            <img class="pho" src="image/rac100 .png">
+        </div>
+        <div class="content_tr">
+            <h3>What Client's Say?</h3>
+            <div class="content_white">
+                <p>Curabitur quirs nisl in lei euismod venenatis eu in diam.Etiam auctor diam pellenres quel letus vehicula attis.Nulla ac massa at dolor condimentum</p>
+            </div>
+            <h4>Jhon Doe</h4>
+        </div>
+    </div>
+    </div>
+    <div class="content_b">
+        <h4>Our Happy Clients</h4>
+        <img class="img" src="image/line1.png" />
+        <span class="try"><a href="#">&lt;</a></span>
+        <span class="try"><a href="#">&gt;</a></span>
+        <div class="content_bo1">
+            <img src="image/about_us_jQuery.png" />
+        </div>
+        <div class="content_bo2">
+            <img src="image/about_us_jQuery.png" />
+        </div>
+        <div class="content_bo3">
+            <img src="image/about_us_jQuery.png" />
+        </div>
+        <div class="content_bo4">
+            <img src="image/about_us_jQuery.png" />
+        </div>
+        <div class="content_bo5">
+            <img src="image/about_us_jQuery.png" />
+        </div>
+        <div class="content_bo6">
+            <img src="image/about_us_jQuery.png" />
+        </div>
+    </div>
+    <div class="footer">
+        <img src="image/hea_bg.png" class="hea">
+        <div class="footert">
+            <div class="footer_l">
+                <img src="image/modus_versus.png">
+                <p>Lorem ipsum dolor sti amet,consectetur adipiscing elit.Nam viverra euismod odio,gravida pellentesque urna varius vitae.Sed dui lorem adioiscing in adipiscing et,interdum nec.</p>
+                <p class="phone">phone:182 2569 5896</p>
+                <p class="email">email:<i>info@modu.versus</i></p>
+            </div>
+            <div class="footer_mo">
+                <h3 class="hh">Company</h3>
+                <div class="company">
+                    <a href="">About</a>
+                    <a href="">FAQ</a>
+                    <a href="">Contact</a>
+                    <a href="">Terms</a>
+                    <a href="">Privacy</a>
+                    <a href="">Testimonials</a>
+                </div>
+                <div class="footer_mt">
+                    <h3>Community</h3>
+                    <div class="community">
+                        <a href="">Blog</a>
+                        <a href="">Forum</a>
+                        <a href="">Support</a>
+                        <a href="">Newsletter</a>
+                    </div>
+                </div>
+                <div class="footer_r">
+                    <h2> <i>from the</i> <b>BOLG</b></h2>
+                    <div class="pic">
+                        <img src="image/pic.png">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit</p>
+                        <p class="pp">26 May,2013</p>
+                    </div>
+                    <div class="pic">
+                        <img src="image/pic.png">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit</p>
+                        <p class="pp">26 May,2013</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-b">
+        <p style="padding-top:17px;color: white;">2013 ModusVersus</p>
+        <img src="image/foot_bg.png" class="footer_bg">
+    </div>
+    <div class="clear"></div>
+</body>
+
+</html>
